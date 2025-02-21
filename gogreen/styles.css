@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #e8f5e9;
+    color: #333;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Header Section */
+header {
+    height: 100vh;
+    background: url('green-bg.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+
+/* Sections */
+section {
+    padding: 50px;
+}
+
+/* Cards */
+.card {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* Carbon Calculator */
+#calculator {
+    background: #e3f2fd;
+    padding: 40px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+#calculator input {
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+#calculator button {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+#calculator button:hover {
+    background: #45a049;
+}
+
+/* Dark Mode Toggle */
+#darkModeToggle {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    transition: all 0.3s;
+}
+
+#darkModeToggle:hover {
+    background: #45a049;
+}

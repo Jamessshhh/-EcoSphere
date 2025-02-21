@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go Green - Environmental Awareness</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <button id="darkModeToggle">🌙</button>
+
+    <header>
+        <div class="hero">
+            <h1>Go Green, Save the Planet 🌍</h1>
+            <p>Join the movement for a cleaner, greener, and more sustainable future.</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>Why Should We Go Green?</h2>
+        <div class="content">
+            <img src="earth.jpg" alt="Earth">
+            <p>Climate change, pollution, and deforestation threaten our planet. By adopting eco-friendly practices, we can slow global warming, protect wildlife, and ensure a sustainable future. 🌿</p>
+        </div>
+    </section>
+
+    <section id="tips">
+        <h2>How Can You Help?</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="recycle.jpg" alt="Recycle">
+                <h3>Reduce & Recycle</h3>
+                <p>Recycling helps reduce landfill waste and conserves natural resources. Start by using reusable bags, composting, and sorting your waste correctly. ♻️</p>
+            </div>
+            <div class="card">
+                <img src="solar.jpg" alt="Solar Energy">
+                <h3>Switch to Renewable Energy</h3>
+                <p>Fossil fuels contribute to climate change. Consider installing solar panels or using green energy providers to lower your carbon footprint. ☀️</p>
+            </div>
+            <div class="card">
+                <img src="tree.jpg" alt="Tree Planting">
+                <h3>Plant More Trees</h3>
+                <p>Trees absorb CO₂, improve air quality, and provide habitat for wildlife. Participate in tree-planting drives or grow plants in your home. 🌳</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="calculator">
+        <h2>🌍 Calculate Your Carbon Footprint</h2>
+        <p>Find out how much CO₂ you produce from electricity usage.</p>
+        <input type="number" id="electricityInput" placeholder="Enter kWh (e.g., 300)">
+        <button onclick="calculateFootprint()">Calculate</button>
+        <p id="footprintResult"></p>
+    </section>
+
+    <section id="newsletter">
+        <h2>Stay Updated with Eco News</h2>
+        <p>Join our newsletter to get the latest environmental updates, tips, and action plans to make a difference.</p>
+        <input type="email" id="emailInput" placeholder="Enter your email">
+        <button onclick="subscribeNewsletter()">Subscribe</button>
+        <p id="subscribeMessage"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
