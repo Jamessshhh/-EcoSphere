@@ -37,6 +37,7 @@ and a Newsletter Subscription to stay updated on green initiatives.
 📂 Project Structure
 
 EcoSphere/
+
 │── images/               # Image assets (earth.jpg, recycle.jpg, etc.)
 
 │── index.html            # Main HTML file
