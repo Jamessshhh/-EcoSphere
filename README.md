@@ -1,6 +1,8 @@
 🌍 EcoSphere - Environmental Awareness Website
 
 
+
+
 EcoSphere is a modern and interactive website designed to promote environmental awareness and encourage sustainable practices.
 
 It provides users with essential information on eco-friendly habits,
