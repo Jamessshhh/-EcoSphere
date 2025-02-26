@@ -7,7 +7,7 @@ It provides users with essential information on eco-friendly habits,
 
 a Carbon Footprint Calculator, a Dark Mode Toggle, 
 
-and a Newsletter Subscription to stay updated on green initiatives.
+and a Newsletter Subscription to stay updated on green initiatives. 
 
 
 📌 Features
