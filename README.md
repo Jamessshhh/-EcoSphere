@@ -1,5 +1,7 @@
 🌍 EcoSphere - Environmental Awareness Website
 
+---
+
 
 
 
@@ -11,6 +13,7 @@ a Carbon Footprint Calculator, a Dark Mode Toggle,
 
 and a Newsletter Subscription to stay updated on green initiatives. 
 
+----
 
 📌 Features
 
@@ -26,6 +29,7 @@ and a Newsletter Subscription to stay updated on green initiatives.
 
 ✅ Smooth Scrolling & Responsive Design – Works seamlessly across devices.
 
+---
 
 🛠 Tech Stack
 
@@ -35,6 +39,7 @@ and a Newsletter Subscription to stay updated on green initiatives.
 
 * JavaScript (Vanilla JS) – Interactivity & Functionality
 
+---
 
 📂 Project Structure
 
@@ -50,6 +55,7 @@ EcoSphere/
 
 │── README.md             # Project documentation
 
+---
 
 🔧 Setup & Installation
 
